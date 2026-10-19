@@ -1,0 +1,73 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /RGB Point Cloud1
+      Splitter Ratio: 0.5
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/PointCloud2
+      Name: RGB Point Cloud
+      Enabled: true
+      Topic:
+        Value: /hikrobot/points_rgb
+        Depth: 1
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        History Policy: Keep Last
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Flat Squares
+      Size (m): 0.002
+      Size (Pixels): 2
+      Alpha: 1
+      Decay Time: 0
+      Queue Size: 1
+      Selectable: true
+      Use Fixed Frame: true
+      Use rainbow: false
+      Value: true
+    - Class: rviz_default_plugins/Axes
+      Name: Camera Axes
+      Enabled: true
+      Reference Frame: hikrobot_camera_link
+      Length: 0.1
+      Radius: 0.003
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 35; 35; 35
+    Fixed Frame: hikrobot_camera_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Name: Current View
+      Distance: 1.2
+      Focal Point:
+        X: 0.5
+        Y: 0
+        Z: 0
+      Near Clip Distance: 0.01
+      Pitch: 0.35
+      Yaw: 3.4
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz_default_plugins)
+Window Geometry:
+  Width: 1400
+  Height: 900
+  Hide Left Dock: false
+  Hide Right Dock: true

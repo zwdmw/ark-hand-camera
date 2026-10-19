@@ -1,0 +1,5 @@
+numpy>=1.24,<2
+opencv-python>=4.8,<5
+ultralytics>=8.4.104,<9
+torch>=2.1
+# Optional interactive 3-D window: pip install open3d

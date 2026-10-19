@@ -1,0 +1,11 @@
+{
+  "width": 5472,
+  "height": 3648,
+  "fx": 4739.850999909649,
+  "fy": 4739.850999909649,
+  "cx": 2735.5,
+  "cy": 1823.5,
+  "dist_coeffs": [0, 0, 0, 0, 0],
+  "calibrated": false,
+  "note": "EXAMPLE ONLY: assumed 60-degree horizontal FOV. Replace with measured full-sensor lens calibration."
+}
